@@ -13,3 +13,31 @@
   --green: #1bc400;
   --blue: #6495ED;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header .logo {
+  font-size: var(--size-20);
+  font-weight: 600;
+}
+
+header .logo span {
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.first-letter { color: var(--blue); }
+.second-letter { color: var(--red); }
+.third-letter { color: var(--yellow); }
+.forth-letter { color: var(--blue); }
+.fifth-letter { color: var(--green); }
+.sixth-letter { color: var(--red); }
+
+.header-bar {
+  display: flex;
+  flex-direction: row;
+}
