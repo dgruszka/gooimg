@@ -1,5 +1,4 @@
 :root {
-  font-family: 'Fraunces', serif;
   --size-10: 0.625rem;
   --size-20: 1.25rem;
   --size-30: 1.875rem;
@@ -7,11 +6,17 @@
   --size-50: 3.125rem;
   --size-100: 6.25rem;
   --size-150: 9.375rem;
+
   --black: #000000;
   --red: #fe2f02;
   --yellow: #fef700;
   --green: #1bc400;
   --blue: #6495ED;
+  --white: #ffffff;
+}
+
+* {
+  font-family: 'Fraunces', serif;
 }
 
 body {
@@ -19,25 +24,23 @@ body {
   padding: 0;
 }
 
-header .logo {
-  font-size: var(--size-20);
-  font-weight: 600;
-}
-
-header .logo span {
-  letter-spacing: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.first-letter { color: var(--blue); }
-.second-letter { color: var(--red); }
-.third-letter { color: var(--yellow); }
-.forth-letter { color: var(--blue); }
-.fifth-letter { color: var(--green); }
-.sixth-letter { color: var(--red); }
-
 .header-bar {
   display: flex;
   flex-direction: row;
+}
+
+.logo img {
+  width: var(--size-100);
+}
+
+.input-box img {
+  width: var(--size-20);
+}
+
+.right-side {
+  margin-left: auto;
+}
+
+.right-side .profile-image {
+  border-radius: 50%;
 }
