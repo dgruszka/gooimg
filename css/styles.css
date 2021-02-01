@@ -27,14 +27,22 @@ body {
 .header-bar {
   display: flex;
   flex-direction: row;
+  margin: var(--size-20) var(--size-30);
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar input {
+  margin-left: var(--size-50);
 }
 
 .logo img {
   width: var(--size-100);
+  align-self: center;
 }
 
 .input-box img {
-  width: var(--size-20);
+  height: var(--size-20);
 }
 
 .right-side {
@@ -43,4 +51,22 @@ body {
 
 .right-side .profile-image {
   border-radius: 50%;
+}
+
+.links-container {
+  display: flex;
+  width: 70%;
+  margin: var(--size-10) auto;
+}
+
+.links-container i {
+  padding-left: var(--size-10);
+}
+
+.links-container p {
+  margin: 0 var(--size-10);
+}
+
+.links-container .settings {
+  margin-left: auto;
 }
