@@ -60,7 +60,11 @@ body {
 }
 
 .links-container i {
-  padding-left: var(--size-10);
+  padding-right: 5px;
+}
+
+.links-container span {
+  margin-right: var(--size-20);
 }
 
 .links-container p {
@@ -73,4 +77,27 @@ body {
 
 .results-container {
   width: 70%;
+  margin: 0 auto;
+}
+
+.results-container .results-quantity p {
+  opacity: 0.3;
+  margin-top: 0;
+}
+
+.results p {
+  margin-bottom: 0;
+}
+
+.results h2 {
+  margin: 0;
+  color: blue;
+}
+
+.results-body a {
+  text-decoration: none;
+}
+
+.results-body {
+  margin-top: 8px;
 }
