@@ -184,3 +184,30 @@ body {
 .footer-1 span:nth-child(14) {
   color: var(--red);
 }
+
+.footer-2 {
+  display: flex;
+  margin: 0 auto var(--size-10) auto;
+}
+
+.footer-text,
+.footer-numbers {
+  margin-top: 0;
+  margin-left: var(--size-50);
+  margin-bottom: var(--size-10);
+}
+
+.footer-numbers span,
+.footer-text {
+  font-size: var(--size-50);
+  color: var(--blue);
+}
+
+.footer-2 .footer-numbers span {
+  margin-left: var(--size-20);
+  margin-right: var(--size-20);
+}
+
+.footer-2 .footer-numbers span:nth-child(1) {
+  color: var(--black)
+}
