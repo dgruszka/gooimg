@@ -32,17 +32,60 @@ body {
   align-items: center;
 }
 
-.header-bar input {
-  margin-left: var(--size-50);
+.logo span {
+  font-size: var(--size-40);
 }
 
-.logo img {
-  width: var(--size-100);
-  align-self: center;
+.logo span:nth-child(1) {
+  color: var(--blue);
+}
+
+.logo span:nth-child(2) {
+  color: var(--red);
+}
+
+.logo span:nth-child(3) {
+  color: var(--yellow);
+}
+
+.logo span:nth-child(4) {
+  color: var(--blue);
+}
+
+.logo span:nth-child(5) {
+  color: var(--green);
+}
+
+.logo span:nth-child(6) {
+  color: var(--red);
+}
+
+.input-box {
+  width: 75%;
+  height: var(--size-30);
+  margin: auto var(--size-30);
+  border: 1px solid var(--black);
+  border-radius: var(--size-20);
+}
+
+.header-bar .input-box input {
+  width: 80%;
+  margin: auto 70px auto var(--size-10);
+  border: none;
 }
 
 .input-box img {
-  height: var(--size-20);
+  height: 15px;
+  margin-top: 7px;
+}
+
+.input-box .most-left img {
+  margin-left: auto;
+}
+
+.header-bar .input-box img:nth-child(3) {
+  margin-left: var(--size-20);
+  margin-right: var(--size-20);
 }
 
 .right-side {
@@ -107,7 +150,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
   margin: var(--size-20) auto;
-  width: 80%;
+  width: 70%;
 }
 
 .people-ask .boxing {
@@ -210,4 +253,9 @@ body {
 
 .footer-2 .footer-numbers span:nth-child(1) {
   color: var(--black)
+}
+
+.credit {
+  font-size: var(--size-10);
+  margin: 0 auto var(--size-20) auto;
 }
