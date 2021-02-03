@@ -33,7 +33,7 @@ body {
 }
 
 .header-bar input {
-  margin-left: var(--size-50);
+  margin-left: 5rem;
 }
 
 .logo img {
